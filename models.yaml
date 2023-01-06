@@ -13,12 +13,11 @@ dreamlike-diffusion-1.0:
   height: 512
   default: true
 openjourney:
-  weights: models/ldm/stable-diffusion-v1/Anything-V3.0-pruned.ckpt
-  description: Cool anime model
+  weights: models/ldm/stable-diffusion-v1/mdjrny-v4.ckpt
+  description: Openjourney is an open source Stable Diffusion fine tuned model on Midjourney
   config: configs/stable-diffusion/v1-inference.yaml
   width: 512
   height: 512
-  vae: models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-pruned.ckpt
 stable-diffusion-1.5:
   description: The newest Stable Diffusion version 1.5 weight file (4.27 GB)
   weights: models/ldm/stable-diffusion-v1/v1-5-pruned-emaonly.ckpt
